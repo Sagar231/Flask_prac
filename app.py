@@ -50,7 +50,7 @@ def create_item_in_store(name):
             }
             _['items'].append(new_item)
             return jsonify(new_item)
-    return jsonify({"massage":"store not found"})
+    return jsonify({"massage":"store not found "})
 
 @app.route("/store/<string:name>/item")
 def get_item_in_store(name):
