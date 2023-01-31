@@ -22,6 +22,7 @@ cursor.execute("INSERT INTO items VALUES('test',10.34)")
 # select_query = "SELECT * FROM users"
 # for _ in cursor.execute(select_query):
 #     print(_)
+# select_querry2 = "SELECT name FROM users"
 
 connection.commit()
 connection.close()
