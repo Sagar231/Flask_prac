@@ -10,6 +10,9 @@ cursor.execute(create_table)
 create_table = "CREATE TABLE IF NOT EXISTS items(name text , price real)"
 cursor.execute(create_table)
 
+connection.commit()
+connection.close()
+
 # insert_query = "INSERT INTO users VALUES (?,?,?)"
 # #cursor.execute(insert_query,user)
 #
@@ -24,5 +27,4 @@ cursor.execute(create_table)
 #     print(_)
 # select_querry2 = "SELECT name FROM users"
 
-connection.commit()
-connection.close()
+
