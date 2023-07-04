@@ -21,7 +21,7 @@ def reversePairs(self, nums: List[int]) -> int:
 
             for i in range(low, high + 1):
                 arr[i] = temp[i - low]
-        
+        #function to count pairs
         def cntpair(arr,low,mid,high):
             cnt = 0
             right = mid+1
