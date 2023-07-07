@@ -3,7 +3,7 @@ def reversePairs(self, nums: List[int]) -> int:
             temp = []  
             left = low  
             right = mid + 1  
-
+#its also called divide
             while left <= mid and right <= high:
                 if arr[left] <= arr[right]:
                     temp.append(arr[left])
